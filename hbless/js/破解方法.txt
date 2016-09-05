@@ -1,0 +1,6 @@
+找到"fromCharCode";
+在return b前面加上如下语句
+b=b.replace("position:absolute","position:absolute;display:none").replace("TRIAL","").replace("new Date(2025,12,19)","new Date(7025,12,19)");
+
+参考文档：
+http://blog.csdn.net/cdnight/article/details/49306957
